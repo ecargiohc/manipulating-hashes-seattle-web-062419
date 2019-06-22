@@ -15,6 +15,7 @@ def first_challenge
   }
 
   #your code here
+  contacts["Jon Snow"][:favorite_icecream_flavors]
   contacts.collect do |person, data|
     data.collect do |attribute, value|
       # if attribute == :favorite_icecream_flavors
