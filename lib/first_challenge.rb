@@ -19,17 +19,17 @@ def first_challenge
     flavor == "strawberry"
     
     
-  contacts.collect do |person, data|
-    data.collect do |attribute, value|
-      # if attribute == :favorite_icecream_flavors
-        value.collect do |flavor| 
-          flavor.delete_if {|flavor| flavor == "strawberry"}
-            return contacts
+#   contacts.collect do |person, data|
+#     data.collect do |attribute, value|
+#       # if attribute == :favorite_icecream_flavors
+#         value.collect do |flavor| 
+#           flavor.delete_if {|flavor| flavor == "strawberry"}
+#             return contacts
   
-          end
-        end
-  return contacts
-  #remember to return your newly altered contacts hash!
-end
-end
+#           end
+#         end
+#   return contacts
+#   #remember to return your newly altered contacts hash!
+# end
+# end
 
